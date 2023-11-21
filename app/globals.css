@@ -2,11 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  padding:0px;
+  max-width: 1920px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+Image{
+  width: auto;
+  height: auto;
+}
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 } */
 
-
+p{
+  font-size:16px;
+}
 
